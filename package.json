@@ -1,0 +1,32 @@
+{
+  "name": "lw.svg-path",
+  "version": "0.1.0",
+  "description": "SVG path for LaserWeb",
+  "main": "./dist/lw.svg-path.js",
+  "scripts": {
+    "build-prod": "webpack -p --progress --colors",
+    "build-dev": "webpack --progress --colors"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lautr3k/lw.svg-path.git"
+  },
+  "keywords": [
+    "svg",
+    "path",
+    "laserweb"
+  ],
+  "author": "Sébastien Mischler (skarab, Lautr3k)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/lautr3k/lw.svg-path/issues"
+  },
+  "homepage": "https://github.com/lautr3k/lw.svg-path#readme",
+  "devDependencies": {
+    "babel-core": "^6.20.0",
+    "babel-loader": "^6.2.9",
+    "babel-preset-es2015": "^6.18.0",
+    "babel-preset-react": "^6.16.0",
+    "webpack": "^1.14.0"
+  }
+}
